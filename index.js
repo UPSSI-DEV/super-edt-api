@@ -25,4 +25,4 @@ app.get('/events', (req, res) => {
 })
 
 const port = process.env.SERVER_PORT || 4000
-app.listen(port, console.log(`listening on ${port}`))
+app.listen(port, console.log(`Listen on port ${port}\n🚀 Server ready at http://localhost:${port}/`))
