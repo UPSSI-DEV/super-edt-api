@@ -7,11 +7,11 @@ const calendar = new google.calendar_v3.Calendar()
 
 /* == Main function ==================================================================================== */
 
-async function getEvents(api_key, calendarList) {
+async function getEvents(api_key, calendarList, bounds) {
     let events = []
     
     for(const id of calendarList)
-        events = events.concat(await getRawData(api_key, id))
+        events = events.concat(await getRawData(api_key, id, bounds))
 
     events = orderData(events)
     events = splitData(events)
@@ -21,32 +21,9 @@ async function getEvents(api_key, calendarList) {
 
 
 
-/* == Get time delimiters ============================================================================== */
-
-function getSchoolYear() {
-    const now = new Date()
-    return (now.getMonth() >= 7) ? [now.getFullYear(), now.getFullYear()+1] : [now.getFullYear()-1, now.getFullYear()]
-}
-
-function getBounds() {
-    const now = new Date()
-    const DAY_MS = 24*60*60*1000
-
-    // Retrive monday of our week
-    const lowerBound = new Date(now - (now.getDay()) * DAY_MS)
-
-    // Get sunday 4 weeks later
-    const upperBound = new Date(lowerBound.getTime() + DAY_MS * (4*7 - 1))
-
-    return [lowerBound, upperBound]
-}
-
-
-
 /* == Retrieve calendar events from google calendar ==================================================== */
 
-async function getRawData(api_key, calendarId) {
-    const bounds = getBounds()
+async function getRawData(api_key, calendarId, bounds) {
 
     const calendarData = await calendar.events.list({
         key: api_key,
@@ -56,6 +33,7 @@ async function getRawData(api_key, calendarId) {
     }).then(data => data.data.items.filter(i => i.status == "confirmed"))
 
     return calendarData
+
 }
 
 
@@ -63,7 +41,7 @@ async function getRawData(api_key, calendarId) {
 /* == Retain only important information from calendar events =========================================== */
 
 function orderData(events) {
-    return events.map(e => new Object({
+    let orderedEvents = events.map(e => new Object({
         raw: e.summary,
         infos: parseEventName(e.summary),
         start: e.start.date || e.start.dateTime,
@@ -74,6 +52,8 @@ function orderData(events) {
         const b_timestamp = (new Date(b.start)).getTime()
         return a_timestamp - b_timestamp
     })
+
+    return orderedEvents
 }
 
 
