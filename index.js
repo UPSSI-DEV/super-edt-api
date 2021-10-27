@@ -2,6 +2,9 @@ const express = require('express')
 const cors = require('cors')
 const morgan = require('morgan')
 
+const fs = require('fs')
+const https = require('https')
+
 const app = express()
 
 app.use(morgan('tiny'))
@@ -46,6 +49,14 @@ app.get('/events/module/:code', (req, res) => {
 
 
 /* == SERVER LAUNCH =============================================================================== */
+const port = process.env.PORT || 4000
 
-const port = process.env.SERVER_PORT || 4000
-app.listen(port, console.log(`[🚀] Server ready at http://localhost:${port}/`))
+if(process.env.PROD) {
+  const certificate = fs.readFileSync(process.env.SSL_CRT, 'utf-8')
+  const privateKey = fs.readFileSync(process.env.SSL_KEY, 'utf-8')
+  const credentials = {key: privateKey, cert: certificate}
+
+  https.createServer(credentials, app).listen(port, console.log(`[🚀] HTTPS Server ready at https://localhost:${port}/`))
+} else
+  app.listen(port, console.log(`[🚀] HTTP Server ready at http://localhost:${port}/`))
+
