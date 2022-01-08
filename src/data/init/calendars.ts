@@ -1,7 +1,7 @@
-import DB from "../util/database";
+import DB from "../database";
 import { readFileSync } from "fs";
 import { join } from "path";
-import { Collection, Db } from "mongodb";
+import { Collection } from "mongodb";
 
 export default async function genCalendars() {
     const db = await DB.get();

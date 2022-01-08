@@ -1,6 +1,5 @@
 import { google, calendar_v3 } from "googleapis";
 import * as dotenv from "dotenv";
-import { GaxiosPromise } from "googleapis/build/src/apis/analyticsreporting";
 
 interface CalendarEvent {
     summary: string;
@@ -52,18 +51,15 @@ class CalendarAPI {
         return events.filter((x) => x.status === "confirmed");
     }
 
-    public async get(calendar_id: string): Promise<Array<CalendarEvent>> {
+    public async get(calendar_id: string): Promise<CalendarEvent[]> {
         const [startYear, endYear] = this.getYear();
         const rawEvents = await this.fetchEvents(calendar_id, startYear, endYear);
 
         const events: CalendarEvent[] = rawEvents.map((x) => ({
             summary: x.summary ?? "",
-            startTime: new Date(`${x.start?.date || x.start?.dateTime}`),
-            endTime: new Date(`${x.end?.date || x.end?.dateTime}`)
+            startTime: new Date((x.start?.date || x.start?.dateTime) ?? ""),
+            endTime: new Date((x.end?.date || x.end?.dateTime) ?? "")
         }));
-
-        const year = (x: string) => new Date(x).getFullYear();
-        console.log(`current year: ${year(startYear)}/${year(endYear)}`);
 
         return events.sort((a, b) => a.startTime.getTime() - b.startTime.getTime());
     }
