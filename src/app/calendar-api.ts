@@ -48,10 +48,25 @@ class CalendarAPI {
             events = events.concat(result.items ?? []);
         } while (events.length % 250 == 0);
 
-        return events.filter((x) => x.status === "confirmed");
+        return events.filter((x) => this.isValid(x));
     }
 
-    public async get(calendar_id: string): Promise<CalendarEvent[]> {
+    private isValid(event: calendar_v3.Schema$Event): boolean {
+        if (event.status != "confirmed") return false;
+
+        if (event.recurrence) {
+            const regex = event.recurrence?.shift()?.match(/UNTIL=([^;]+);/g);
+            //if (regex) console.log(regex);
+        }
+
+        return true;
+    }
+
+    private timeSort(events: CalendarEvent[]) {
+        return events.sort((a, b) => a.startTime.getTime() - b.startTime.getTime());
+    }
+
+    public async getSingle(calendar_id: string): Promise<CalendarEvent[]> {
         const [startYear, endYear] = this.getYear();
         const rawEvents = await this.fetchEvents(calendar_id, startYear, endYear);
 
@@ -61,7 +76,16 @@ class CalendarAPI {
             endTime: new Date((x.end?.date || x.end?.dateTime) ?? "")
         }));
 
-        return events.sort((a, b) => a.startTime.getTime() - b.startTime.getTime());
+        return this.timeSort(events);
+    }
+
+    public async get(calendar_ids: string[]): Promise<CalendarEvent[]> {
+        let events: CalendarEvent[] = [];
+        for (const id of calendar_ids) {
+            events = events.concat(await this.getSingle(id));
+        }
+
+        return this.timeSort(events);
     }
 }
 

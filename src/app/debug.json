@@ -1,0 +1,386 @@
+[
+    {
+        "kind": "calendar#event",
+        "etag": "\"3238724915394000\"",
+        "id": "291tmu3c8b61l5m4pnn087enih",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MjkxdG11M2M4YjYxbDVtNHBubjA4N2VuaWhfMjAyMjAxMTdUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T14:54:17.000Z",
+        "updated": "2021-04-25T14:54:17.697Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - A. Hirose -4A - Salle K08",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-17T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-17T20:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurrence": [],
+        "iCalUID": "291tmu3c8b61l5m4pnn087enih@google.com",
+        "sequence": 0,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3238725392596000\"",
+        "id": "1a7uiuujondmp3rgnfbpqn2gto",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWE3dWl1dWpvbmRtcDNyZ25mYnBxbjJndG9fMjAyMjAxMjRUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T14:58:16.000Z",
+        "updated": "2021-04-25T14:58:16.298Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - A. Hirose -4A - Salle K08",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-24T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-24T20:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurrence": [],
+        "iCalUID": "1a7uiuujondmp3rgnfbpqn2gto@google.com",
+        "sequence": 0,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3238726090910000\"",
+        "id": "6turjcgplig22t7k6ikj2ivpnu",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NnR1cmpjZ3BsaWcyMnQ3azZpa2oyaXZwbnVfMjAyMjAxMzFUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T15:04:05.000Z",
+        "updated": "2021-04-25T15:04:05.455Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - A. Hirose -4A - Salle K08",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-31T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-31T20:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurrence": [],
+        "iCalUID": "6turjcgplig22t7k6ikj2ivpnu@google.com",
+        "sequence": 0,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3238728233826000\"",
+        "id": "6dtvlaaf4n1pjv4qdm39n30k8t",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NmR0dmxhYWY0bjFwanY0cWRtMzluMzBrOHRfMjAyMjAyMDdUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T15:21:56.000Z",
+        "updated": "2021-04-25T15:21:56.913Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - A. Hirose -4A - Salle K08",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-02-07T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-02-07T20:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurrence": [],
+        "iCalUID": "6dtvlaaf4n1pjv4qdm39n30k8t@google.com",
+        "sequence": 0,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3238729229728000\"",
+        "id": "2rmdjspn53cg4qtorjp1u994ge",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MnJtZGpzcG41M2NnNHF0b3JqcDF1OTk0Z2VfMjAyMjAyMTRUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T15:30:14.000Z",
+        "updated": "2021-04-25T15:30:14.864Z",
+        "summary": "**EXAMEN** ELUMC6A1 - LANGUES - LV2 Japonais - A. Hirose -4A - Salle K08",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-02-14T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-02-14T20:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurrence": [],
+        "iCalUID": "2rmdjspn53cg4qtorjp1u994ge@google.com",
+        "sequence": 0,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3279356108518000\"",
+        "id": "56co71et4aeomai92s35godhkj",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTZjbzcxZXQ0YWVvbWFpOTJzMzVnb2Roa2pfMjAyMjAxMTBUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T14:48:16.000Z",
+        "updated": "2021-12-16T18:07:34.259Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - Y. Bourque - 4A - Salle K07",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-10T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-10T20:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurrence": [],
+        "iCalUID": "56co71et4aeomai92s35godhkj@google.com",
+        "sequence": 0,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3279356279530000\"",
+        "id": "1a7uiuujondmp3rgnfbpqn2gto_20220124T171500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWE3dWl1dWpvbmRtcDNyZ25mYnBxbjJndG9fMjAyMjAxMjRUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T14:58:16.000Z",
+        "updated": "2021-12-16T18:08:59.765Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - Y. Bourque - 4A - Salle K07",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-24T18:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-24T20:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurringEventId": "1a7uiuujondmp3rgnfbpqn2gto",
+        "originalStartTime": {
+            "dateTime": "2022-01-24T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "iCalUID": "1a7uiuujondmp3rgnfbpqn2gto@google.com",
+        "sequence": 1,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3279356301136000\"",
+        "id": "6turjcgplig22t7k6ikj2ivpnu_20220131T171500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NnR1cmpjZ3BsaWcyMnQ3azZpa2oyaXZwbnVfMjAyMjAxMzFUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T15:04:05.000Z",
+        "updated": "2021-12-16T18:09:10.568Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - Y. Bourque - 4A - Salle K07",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-31T18:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-31T20:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurringEventId": "6turjcgplig22t7k6ikj2ivpnu",
+        "originalStartTime": {
+            "dateTime": "2022-01-31T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "iCalUID": "6turjcgplig22t7k6ikj2ivpnu@google.com",
+        "sequence": 1,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3279356359328000\"",
+        "id": "291tmu3c8b61l5m4pnn087enih_20220117T171500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MjkxdG11M2M4YjYxbDVtNHBubjA4N2VuaWhfMjAyMjAxMTdUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T14:54:17.000Z",
+        "updated": "2021-12-16T18:09:39.664Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - Y. Bourque - 4A - Salle K07",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-17T18:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-17T20:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurringEventId": "291tmu3c8b61l5m4pnn087enih",
+        "originalStartTime": {
+            "dateTime": "2022-01-17T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "iCalUID": "291tmu3c8b61l5m4pnn087enih@google.com",
+        "sequence": 1,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3279356400092000\"",
+        "id": "6dtvlaaf4n1pjv4qdm39n30k8t_20220207T171500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NmR0dmxhYWY0bjFwanY0cWRtMzluMzBrOHRfMjAyMjAyMDdUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T15:21:56.000Z",
+        "updated": "2021-12-16T18:10:00.046Z",
+        "summary": "ELUMC6A1 - LANGUES - LV2 Japonais - Y. Bourque - 4A - Salle K07",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-02-07T18:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-02-07T20:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurringEventId": "6dtvlaaf4n1pjv4qdm39n30k8t",
+        "originalStartTime": {
+            "dateTime": "2022-02-07T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "iCalUID": "6dtvlaaf4n1pjv4qdm39n30k8t@google.com",
+        "sequence": 1,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3279356439192000\"",
+        "id": "2rmdjspn53cg4qtorjp1u994ge_20220214T171500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MnJtZGpzcG41M2NnNHF0b3JqcDF1OTk0Z2VfMjAyMjAyMTRUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T15:30:14.000Z",
+        "updated": "2021-12-16T18:10:19.596Z",
+        "summary": "**EXAMEN** ELUMC6A1 - LANGUES - LV2 Japonais - Y. Bourque - 4A - Salle K07",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-02-14T18:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-02-14T20:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurringEventId": "2rmdjspn53cg4qtorjp1u994ge",
+        "originalStartTime": {
+            "dateTime": "2022-02-14T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "iCalUID": "2rmdjspn53cg4qtorjp1u994ge@google.com",
+        "sequence": 1,
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3283634661658000\"",
+        "id": "56co71et4aeomai92s35godhkj_20220110T171500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTZjbzcxZXQ0YWVvbWFpOTJzMzVnb2Roa2pfMjAyMjAxMTBUMTcxNTAwWiBqanIwYXUyMWV2cWM2Z3VhdXZhbjMwMzR1Z0Bn",
+        "created": "2021-04-25T14:48:16.000Z",
+        "updated": "2022-01-10T12:22:10.829Z",
+        "summary": "PRESENTIEL - ELUMC6A1 - LANGUES - LV2 Japonais - Y. Bourque - 4A - Salle K07",
+        "creator": {
+            "email": "agnandb@gmail.com"
+        },
+        "organizer": {
+            "email": "jjr0au21evqc6guauvan3034ug@group.calendar.google.com",
+            "displayName": "1eA SRI",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-01-10T18:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "end": {
+            "dateTime": "2022-01-10T20:00:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "recurringEventId": "56co71et4aeomai92s35godhkj",
+        "originalStartTime": {
+            "dateTime": "2022-01-10T18:15:00+01:00",
+            "timeZone": "Europe/Paris"
+        },
+        "iCalUID": "56co71et4aeomai92s35godhkj@google.com",
+        "sequence": 1,
+        "eventType": "default"
+    }
+]
