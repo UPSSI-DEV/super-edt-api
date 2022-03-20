@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/app.ts",
-    "build": "rm -rf build/ && prettier --write source/ && tsc"
+    "build": "rm -rf build/ && prettier --write src/ && tsc",
+    "start": "node ./dist/app.js"
   },
   "repository": {
     "type": "git",
