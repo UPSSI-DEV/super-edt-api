@@ -1,12 +1,22 @@
 {
-    "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
 
-        "rootDir": "./src/",
-        "outDir": "./dist/",
+    "resolveJsonModule": true,
 
-        "strict": true,
-        "sourceMap": true
+    "target": "es6",
+    "skipLibCheck": true,
+    "strict": true,
+
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+
+    "typeRoots": ["./global.d.ts", "./node_modules/@types"],
+
+    "paths": {
+      "@/*": ["./src/*"]
     }
+  }
 }

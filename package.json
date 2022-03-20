@@ -1,30 +1,42 @@
 {
-    "name": "api-ts",
-    "version": "1.0.0",
-    "description": "",
-    "main": "./src/main.js",
-    "scripts": {
-        "start": "TS_NODE_FILES=true TS_NODE_TRANSPILE_ONLY=true ts-node ./src/main.ts",
-        "test": "TS_NODE_FILES=true TS_NODE_TRANSPILE_ONLY=true ts-node ./src/test.ts",
-        "build": "npx tsc ./src/",
-        "watch": "npx tsc -w"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "@types/express": "^4.17.13",
-        "prettier": "^2.5.0",
-        "ts-node": "^10.4.0",
-        "typescript": "^4.5.2"
-    },
-    "dependencies": {
-        "@types/mongoose": "^5.11.97",
-        "dotenv": "^10.0.0",
-        "express": "^4.17.2",
-        "googleapis": "^92.0.0",
-        "moment": "^2.29.1",
-        "mongodb": "^4.2.2",
-        "mongoose": "^6.1.5"
-    }
+  "name": "api-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gui-websites/api-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/google-spreadsheet": "^3.1.5",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "async-middleware": "^1.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "google-spreadsheet": "^3.2.0",
+    "helmet": "^5.0.2",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0"
+  },
+  "_moduleAliases": {
+    "@": "src/"
+  }
 }
