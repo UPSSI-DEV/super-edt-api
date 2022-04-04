@@ -5,6 +5,7 @@ interface CalendarEvent {
   summary: string;
   startTime: Date;
   endTime: Date;
+  origin: string;
 }
 
 class CalendarAPI {
@@ -12,7 +13,6 @@ class CalendarAPI {
   private key: string;
 
   constructor() {
-    console.log(config.calendar.api_key);
     this.key = config.calendar.api_key;
     this.api = google.calendar("v3");
   }
@@ -82,6 +82,7 @@ class CalendarAPI {
       summary: x.summary ?? "",
       startTime: new Date((x.start?.date || x.start?.dateTime) ?? ""),
       endTime: new Date((x.end?.date || x.end?.dateTime) ?? ""),
+      origin: calendar_id,
     }));
 
     return this.timeSort(events);
